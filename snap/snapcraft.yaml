@@ -10,9 +10,9 @@ confinement: devmode # use 'strict' once you have the right plugs and slots
 parts:
   hello-python:
     # See 'snapcraft plugins'
-    source: ../src
+    source: src
     plugin: python
     
 apps:
   hello-python:
-   command: python3 ../src/main.py
+   command: python3 main.py
