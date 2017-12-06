@@ -15,4 +15,4 @@ parts:
     
 apps:
   hello-python:
-   command: python src/main.py
+   command: python3 ../src/main.py
